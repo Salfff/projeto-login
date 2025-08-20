@@ -77,12 +77,37 @@ form > div.campo {
   width: 100%;
   display: block;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 5px 0px;
+  border: 2px solid var(--cor01);
 }
 
 div.campo > label {
   display: none;
+}
+
+div.campo > span {
+  color: white;
+  /* background-color: black; */
+  font-size: 2em;
+  width: 40px;
+  padding: 5px;
+}
+
+div.campo > input {
+  background-color: var(--cor02);
+  font-size: 1em;
+  height: 100%;
+  width: calc(100% - 45px);
+  
+  border-radius: 8px;
+  padding: 4px;
+  border:0px;
+  transform: translateY(-13px);
+}
+
+div.campo > input:focus-within {
+  background-color: white;
 }
 
 form > input[type=submit] {

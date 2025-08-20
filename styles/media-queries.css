@@ -13,6 +13,7 @@
 
   section#login {
     width: 80vw;
+    height: 280px;
   }
 
   section#login > div#image {
@@ -40,6 +41,7 @@
 
   section#login {
     width: 990px;
+    height: 350px;
   }
 
   section#login > div#image {
@@ -59,5 +61,11 @@
 
   div#form > p {
   font-size: 1.2em;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+
+div.campo > input {
+  transform: translateY(-12.5px);
 }
 }
